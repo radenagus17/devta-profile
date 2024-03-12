@@ -2,32 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* :root {
+  --swiper-navigation-size: 20px !important;
+} */
+
+.swiper-pagination-bullets {
+  @apply -mr-2 overflow-x-hidden flex h-full items-end self-end justify-center w-full gap-3 pb-2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.button_client {
+  @apply w-full xl:py-12 py-6 overflow-hidden whitespace-nowrap flex border-none bg-gray-100 gap-x-8;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.button_client > span {
+  @apply animate-marquee p-4 bg-white rounded-lg shadow-md -translate-x-[102vw];
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.button_client:hover > span {
+  animation-play-state: paused;
+}
+
+.swiper-testimoni > .swiper-button {
+  @apply flex absolute md:bottom-[0.2rem] z-10 cursor-pointer text-primary bottom-[45%];
+}
+
+.swiper-testimoni > .swiper-button svg {
+  @apply md:h-6 md:w-6 h-8 w-8;
+}
+
+.swiper-testimoni > .image-swiper-button-prev {
+  @apply lg:left-[79.7em] md:left-[40em] left-0;
+}
+
+.swiper-testimoni > .image-swiper-button-next {
+  @apply md:right-2 right-0;
+}
+
+.swiper-testimoni > .swiper-button-disabled {
+  @apply cursor-not-allowed opacity-50;
 }
