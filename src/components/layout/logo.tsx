@@ -10,8 +10,8 @@ const Logo: FC<LogoProps> = ({}) => {
       <Image
         src={"/logo/devta.png"}
         alt="logo"
-        width={180}
-        height={180}
+        width={172}
+        height={172}
         priority
         quality={100}
       />

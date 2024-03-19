@@ -9,7 +9,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Devta.id",
+  title: "Devta.co.id",
   description:
     "Kami memberikan pelayanan Website Development, Branding, dan Social Media Management sebagai solusi digital bagi kebutuhan bisnis dan perusahaan Anda, dengan kreativitas dan inovasi yang luar biasa!!",
   authors: [{ name: "radenagus17_", url: "https://radenagus17.vercel.app" }],
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     icon: "/logo/devtalogo.png",
   },
   openGraph: {
-    title: "Devta.id",
-    url: "https://devta.id",
+    title: "Devta.co.id",
+    url: "https://devta.co.id",
     type: "website",
     description:
       "Kami memberikan pelayanan Website Development, Branding, dan Social Media Management sebagai solusi digital bagi kebutuhan bisnis dan perusahaan Anda, dengan kreativitas dan inovasi yang luar biasa!!",

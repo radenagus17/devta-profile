@@ -27,7 +27,7 @@ const Hero: FC<HeroProps> = ({}) => {
               className="xl:mt-10 mt-5 tracking-wide shadow-lg shadow-primary-200"
               size="lg"
             >
-              Lihat Portfolio
+              Lihat Portofolio
             </Button>
           </div>
         </div>

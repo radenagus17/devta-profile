@@ -56,7 +56,7 @@ const Footer: FC<FooterProps> = ({}) => {
           linkStyles="relative hover:text-primary transition-all text-sm lg:text-medium"
         />
         <p className="lg:text-sm text-xs text-foreground-300 mt-1">
-          2024 Devta.id, All rights reserved.
+          2024 Devta.co.id, All rights reserved.
         </p>
       </div>
     </footer>

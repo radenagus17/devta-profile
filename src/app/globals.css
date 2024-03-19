@@ -31,7 +31,7 @@
 }
 
 .swiper-testimoni > .image-swiper-button-prev {
-  @apply lg:left-[79.7em] md:left-[40em] left-0;
+  @apply lg:left-[86dvw] md:left-[65dvw] left-0;
 }
 
 .swiper-testimoni > .image-swiper-button-next {

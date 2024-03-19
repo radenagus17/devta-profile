@@ -20,7 +20,7 @@ const WhyUs: FC<WhyUsProps> = ({}) => {
         <TittleAndSubtittle
           tittle="keunggunlan kami dari yang lain"
           subtittle="kenapa kami?"
-          description="Tim kami menawarkan pelayanan yang profesional dan memberikan hasil yang invotaf, sehingga membuat layanan kami berbeda dari yang lain."
+          description="Tim kami menawarkan pelayanan yang profesional dan memberikan hasil yang inovatif, sehingga membuat layanan kami berbeda dari yang lain."
         />
       </motion.div>
       <Spacer y={16} />
