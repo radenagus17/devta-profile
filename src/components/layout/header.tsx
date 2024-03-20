@@ -1,18 +1,15 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useLayoutEffect, useState } from "react";
 import Logo from "./logo";
 import Nav from "./nav";
-// import ThemeToggler from "../ThemeToggler";
 import MobileNav from "./mobileNav";
 import ButtonContactUs from "./buttonContactUs";
-// import { usePathname } from "next/navigation";
 
 interface headerProps {}
 
 const Header: FC<headerProps> = ({}) => {
   const [header, setHeader] = useState<boolean>(false);
-  // const path = usePathname();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     var f = () => (window.scrollY > 50 ? setHeader(true) : setHeader(false));
     window.addEventListener("scroll", f);
 
