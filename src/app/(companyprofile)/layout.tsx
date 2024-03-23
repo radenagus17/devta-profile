@@ -9,20 +9,20 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Devta.co.id",
+  title: "Devta | Your Digital Partner",
   description:
     "Kami memberikan pelayanan Website Development, Branding, dan Social Media Management sebagai solusi digital bagi kebutuhan bisnis dan perusahaan Anda, dengan kreativitas dan inovasi yang luar biasa!!",
-  authors: [{ name: "radenagus17_", url: "https://radenagus17.vercel.app" }],
+  authors: [{ name: "radenagus17_", url: "https://radenagus17.com" }],
   icons: {
-    icon: "/logo/devtalogo.png",
+    icon: "/logo/favicon.png",
   },
   openGraph: {
-    title: "Devta.co.id",
+    title: "Devta | Your Digital Partner",
     url: "https://devta.co.id",
     type: "website",
     description:
       "Kami memberikan pelayanan Website Development, Branding, dan Social Media Management sebagai solusi digital bagi kebutuhan bisnis dan perusahaan Anda, dengan kreativitas dan inovasi yang luar biasa!!",
-    siteName: "Devta",
+    siteName: "Devta | Your Digital Partner",
   },
 };
 

@@ -24,7 +24,7 @@ const CardShadow: FC<CardShadowProps> = ({
 }) => {
   return (
     <Card
-      className={`lg:min-w-[378px] max-w-[400px] px-7 py-5 ${
+      className={`lg:min-w-[378px] max-w-[400px] min-h-[240px] px-7 py-5 ${
         isCentered ? "bg-primary-400/90" : ""
       }`}
       shadow="sm"

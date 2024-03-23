@@ -56,14 +56,14 @@ const TestimoniArea: TestimoniType[] = [
         <Avatar icon={<RxAvatar size={55} />} color="primary" />
         <div>
           {/* name */}
-          <h4 className="font-semibold text-large text-white">Andi</h4>
+          <h4 className="font-semibold text-large">Andi</h4>
           {/* position */}
-          <h6 className="text-xs text-foreground-100">CEO</h6>
+          <h6 className="text-xs text-foreground-400">CEO</h6>
         </div>
       </div>
     ),
     body: "To help the progression of your business with the latest technology.",
-    isCentered: true,
+    // isCentered: true,
     footer: (
       <div className="flex justify-between items-center w-full">
         <div className="inline-flex space-x-1 text-warning-400">
@@ -71,7 +71,7 @@ const TestimoniArea: TestimoniType[] = [
             <FaStar key={item} />
           ))}
         </div>
-        <i className="text-xs text-foreground-100">20 Feb 2024</i>
+        <i className="text-xs text-foreground-400">20 Feb 2024</i>
       </div>
     ),
   },
@@ -97,6 +97,85 @@ const TestimoniArea: TestimoniType[] = [
         </div>
         {/* tanggal */}
         <i className="text-xs text-foreground-400">20 Des 2023</i>
+      </div>
+    ),
+  },
+  {
+    header: (
+      <div className="flex gap-3 items-center">
+        <Avatar icon={<RxAvatar size={55} />} color="primary" />
+        <div>
+          {/* name */}
+          <h4 className="font-semibold text-large">Svetlana Cokorilo</h4>
+          {/* position */}
+          <h6 className="text-xs text-foreground-400">Agency</h6>
+        </div>
+      </div>
+    ),
+    body: `Ok. Thank you! I was glad to work with you`,
+    footer: (
+      <div className="flex justify-between items-center w-full">
+        <div className="inline-flex space-x-1 text-warning-400">
+          {[0, 1, 2, 3, 4].map((item: number) => (
+            <FaStar key={item} />
+          ))}
+        </div>
+        {/* tanggal */}
+        <i className="text-xs text-foreground-400">13 Jan 2021</i>
+      </div>
+    ),
+  },
+  {
+    header: (
+      <div className="flex gap-3 items-center">
+        <Avatar icon={<RxAvatar size={55} />} color="primary" />
+        <div>
+          {/* name */}
+          <h4 className="font-semibold text-large">Arnold Pramudlta&apos;s</h4>
+          {/* position */}
+          <h6 className="text-xs text-foreground-400">Agency</h6>
+        </div>
+      </div>
+    ),
+    body:
+      `Seller easy to communicate with, quick response, revision given as requested. The Appereance is made good and in accordance with identity of the company`.slice(
+        0,
+        77
+      ) + "...",
+    footer: (
+      <div className="flex justify-between items-center w-full">
+        <div className="inline-flex space-x-1 text-warning-400">
+          {[0, 1, 2, 3, 4].map((item: number) => (
+            <FaStar key={item} />
+          ))}
+        </div>
+        {/* tanggal */}
+        <i className="text-xs text-foreground-400">11 May 2022</i>
+      </div>
+    ),
+  },
+  {
+    header: (
+      <div className="flex gap-3 items-center">
+        <Avatar icon={<RxAvatar size={55} />} color="primary" />
+        <div>
+          {/* name */}
+          <h4 className="font-semibold text-large">Drew</h4>
+          {/* position */}
+          <h6 className="text-xs text-foreground-400">Agency</h6>
+        </div>
+      </div>
+    ),
+    body: `Thanks for your great job`,
+    footer: (
+      <div className="flex justify-between items-center w-full">
+        <div className="inline-flex space-x-1 text-warning-400">
+          {[0, 1, 2, 3, 4].map((item: number) => (
+            <FaStar key={item} />
+          ))}
+        </div>
+        {/* tanggal */}
+        <i className="text-xs text-foreground-400">07 Feb 2024</i>
       </div>
     ),
   },
