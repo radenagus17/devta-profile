@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import { Button, Image } from "@nextui-org/react";
 import React, { FC } from "react";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import Nav from "./nav";
@@ -9,12 +9,20 @@ const Footer: FC<FooterProps> = ({}) => {
   return (
     <footer className="min-h-80 bg-[#031428] py-8 text-center mt-20">
       <div>
-        <h1 className="text-white lg:text-5xl text-3xl font-bold uppercase tracking-wider">
+        <div className="flex justify-center">
+          <Image
+            src="/logo/devta-footer.png"
+            alt="devtalogo"
+            width={170}
+            height={170}
+          />
+        </div>
+        {/* <h1 className="text-white lg:text-5xl text-3xl font-bold uppercase tracking-wider">
           Devta
         </h1>
         <h4 className="text-white lg:text-large text-xs">
           Teknologi Indonesia
-        </h4>
+        </h4> */}
 
         <p className="text-foreground-300 lg:text-small text-xs max-w-screen-md mx-auto py-4 px-7 lg:px-0">
           Devta is a growing software company based in Makassar, Indonesia. Our

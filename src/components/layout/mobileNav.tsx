@@ -46,7 +46,7 @@ const MobileNav: FC<MobileNavProps> = ({}) => {
           linkStyles="relative hover:text-primary transition-all"
         />
         <ButtonContactUs
-          containerStyle="group shadow-lg shadow-primary-200 flex absolute z-30 left-[27%] bottom-24"
+          containerStyle="group shadow-lg shadow-primary-200 flex absolute z-30 left-[27%] bottom-40"
           size="md"
         />
       </motion.div>
