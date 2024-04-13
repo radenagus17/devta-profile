@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useLayoutEffect, useState } from "react";
+import React, { FC, useLayoutEffect, useState } from "react";
 import Logo from "./logo";
 import Nav from "./nav";
 import MobileNav from "./mobileNav";
