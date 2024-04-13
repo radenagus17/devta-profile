@@ -39,6 +39,7 @@ const HeroSwiper: FC<HeroSwiperProps> = ({ containerStyles }) => {
       <Swiper
         modules={[Autoplay, Pagination]}
         direction="vertical"
+        loop={true}
         autoplay={{
           delay: 3500,
           disableOnInteraction: false,
