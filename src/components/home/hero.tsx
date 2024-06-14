@@ -23,13 +23,13 @@ const Hero: FC<HeroProps> = ({}) => {
               luar biasa!!
             </p>
 
-            <div className="xl:mt-10 mt-5">
+            <div className="xl:mt-10 mt-7">
               <Link
-                offset={-50}
+                offset={-30}
                 to="portfolio"
                 smooth
                 duration={500}
-                className="tracking-wide shadow-lg shadow-primary-200 bg-primary py-4 px-7 rounded-full cursor-pointer text-white hover:bg-primary/70 transition duration-300"
+                className="tracking-wide shadow-lg shadow-primary-200 bg-primary xl:py-4 xl:px-7 py-3 px-5 rounded-full cursor-pointer text-white hover:bg-primary/70 transition duration-300 text-small xl:text-medium"
                 isDynamic
               >
                 Lihat Portofolio
