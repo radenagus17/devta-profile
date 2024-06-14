@@ -1,6 +1,7 @@
-import { Button } from "@nextui-org/react";
+"use client";
 import React, { FC } from "react";
 import HeroSwiper from "./heroSwiper";
+import { Link } from "react-scroll";
 
 interface HeroProps {}
 
@@ -21,14 +22,19 @@ const Hero: FC<HeroProps> = ({}) => {
               bisnis dan perusahaan Anda, dengan kreativitas dan inovasi yang
               luar biasa!!
             </p>
-            <Button
-              color="primary"
-              radius="full"
-              className="xl:mt-10 mt-5 tracking-wide shadow-lg shadow-primary-200"
-              size="lg"
-            >
-              Lihat Portofolio
-            </Button>
+
+            <div className="xl:mt-10 mt-5">
+              <Link
+                offset={-50}
+                to="portfolio"
+                smooth
+                duration={500}
+                className="tracking-wide shadow-lg shadow-primary-200 bg-primary py-4 px-7 rounded-full cursor-pointer text-white hover:bg-primary/70 transition duration-300"
+                isDynamic
+              >
+                Lihat Portofolio
+              </Link>
+            </div>
           </div>
         </div>
       </div>

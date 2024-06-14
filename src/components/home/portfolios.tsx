@@ -55,7 +55,7 @@ const MyPortfolios: PortfoliosType[] = [
 
 const Portfolios: FC<PortfoliosProps> = ({}) => {
   return (
-    <article className="py-16">
+    <article id="portfolio" className="py-16">
       <motion.div
         variants={fadeIn("up", 0.3)}
         initial={"hidden"}
